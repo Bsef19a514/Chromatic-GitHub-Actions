@@ -82,7 +82,8 @@
     "test": "jest",
     "prepare": "husky install && npm run build",
     "dev": "tsup --watch",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "run-chromatic": "npx chromatic --project-token=chpt_720ca871cdb8d6d"
   },
   "lint-staged": {
     "*.ts": [
